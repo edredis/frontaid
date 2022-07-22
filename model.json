@@ -1,21 +1,19 @@
 {
-  "name": "FrontAid CMS",
-  "index": {
-    "title": "Agile Content Manage­ment with Git.",
-    "text": "FrontAid CMS is a decoupled and Git-based content management system."
+  ":name": "Example Website",
+  "name": {
+    ":description": "Website name",
+    ":type": "line"
   },
-  "blog": [
-    {
-      "title": "Blog Post #1",
-      "text": "Lorem ipsum..."
-    },
-    {
-      "title": "Blog Post #2",
-      "text": "Dolor sit amet..."
-    },
-    {
-      "title": "Blog Post #3",
-      "text": "Consectetur adipisici elit..."
+  "index": {
+    ":description": "Content for the index page",
+    "title": {":type": "line"},
+    "text":  {":type": "text"}
+  },
+  "blog": {
+    ":description": "List of blog posts",
+    ":items": {
+      "title": {":type": "line"},
+      "text":  {":type": "text"}
     }
-  ]
+  }
 }
