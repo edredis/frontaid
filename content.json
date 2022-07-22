@@ -1,24 +1,16 @@
 {
-  "title": "FrontAid CMS with Nuxt Content",
-  "index": {
-    "title": "Index Page",
-    "content": "<p>Some <strong>index</strong> content...</p>"
+  "custom-field": "This is a custom field",
+  "custom-object": {
+    "custom-line": "Custom Line",
+    "custom-text": "Custom text box"
   },
-  "pages": [
+  "custom-list": [
+    {},
     {
-      "title": "Foo Page",
-      "path": "/foo",
-      "content": "<p>Foo content...</p><h2>Heading</h2><p>Some other content...</p>"
+      "custom-list-item": "List 1"
     },
     {
-      "title": "Bar Page",
-      "path": "/bar",
-      "content": "<p><strong>Bar</strong> content...</p>"
-    },
-    {
-      "title": "Baz Page",
-      "path": "/baz",
-      "content": "<p><strong>Baz</strong> content...</p>"
+      "custom-list-item": "list 2"
     }
   ]
 }
