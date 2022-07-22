@@ -1,1 +1,16 @@
-{}
+{
+  "custom-field": "This is a custom field",
+  "custom-object": {
+    "custom-line": "Custom Line",
+    "custom-text": "Custom text box"
+  },
+  "custom-list": [
+    {},
+    {
+      "custom-list-item": "List 1"
+    },
+    {
+      "custom-list-item": "list 2"
+    }
+  ]
+}
