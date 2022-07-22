@@ -1,19 +1,21 @@
 {
-  ":name": "WHA",
-  ":description": "TThe World History Association (WHA) is a professional association of scholars, teachers, and students organized to promote world history by encouraging teaching, research, publications, and personal interactions.",
- 
-  "page-about": {
-    "title": {
-      ":type": "line"
-    },
-
-    "custom-text": {":type": "line", ":richtext": true},
+  "name": "FrontAid CMS",
+  "index": {
+    "title": "Agile Content Manage­ment with Git.",
+    "text": "FrontAid CMS is a decoupled and Git-based content management system."
   },
-  "custom-list": {
-    ":items": {
-      "custom-list-item": {
-        ":type": "line"
-      }
+  "blog": [
+    {
+      "title": "Blog Post #1",
+      "text": "Lorem ipsum..."
+    },
+    {
+      "title": "Blog Post #2",
+      "text": "Dolor sit amet..."
+    },
+    {
+      "title": "Blog Post #3",
+      "text": "Consectetur adipisici elit..."
     }
-  }
+  ]
 }
