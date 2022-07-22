@@ -1,7 +1,7 @@
 {
   "blog": [
     {
-      "text": "<p>Test<em> sdf</em>\n<strong>sdf</strong></p>"
+      "text": "<p><code>###Test sdf sdf</code></p>"
     }
   ]
 }
