@@ -7,7 +7,7 @@
       ":type": "line"
     },
 
-    {
+   "customtext": {
       ":name": "Demo with rich text fields",
       "lineWithFormatting": {":type": "line", ":richtext": true},
       "textWithFormatting": {":type": "text", ":richtext": true},
