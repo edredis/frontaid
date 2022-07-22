@@ -13,7 +13,7 @@
     ":description": "List of blog posts",
     ":items": {
       "title": {":type": "line"},
-      "text":  {":type": "text"}
+      "text":  {":type": "text" , ":richtext": true}
     }
   }
 }
